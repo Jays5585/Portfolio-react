@@ -1,0 +1,111 @@
+.textContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10vh;
+    justify-content: center;
+    padding: 1%;
+}
+
+.text {
+    font-size: 2vw;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline  rgb(233, 190, 89);
+    
+}
+.imageContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50vh;
+    justify-content: center ;
+    padding-top: 2rem;
+   padding-bottom: 2rem;
+}
+.video{
+    padding-right: 10%;
+}
+.morningnewsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 60vh;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+}
+.morningnewsimage{
+    display:flex;
+    justify-content: center;
+    width: 70%;
+    height: 50vh;
+}
+.resumeContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 40vh;
+    padding-left: 5rem;
+    padding-right: 5rem;
+   
+
+}
+.resume{
+    display:flexbox;
+    font-size:26px;
+    font-style: italic;
+    text-align: justify;
+    justify-content: flex-start;
+    font-family: "Times New Roman", Times, serif;
+}
+.suiteContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 40vh;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.suite{
+    display:flexbox;
+    font-size:26px;
+    font-style: italic;
+    text-align: justify;
+    justify-content: flex-start;
+    font-family: "Times New Roman", Times, serif;
+}
+.mdbContainer{
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        height: 40vh;
+        padding-left: 5rem;
+        padding-right: 5rem;
+}
+.mdbImage{
+   display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 80%;
+    
+   
+    margin-left: 9rem
+}
+.likeContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 5rem;
+}
+.like{
+    display: flex;
+    font-size: 40px;
+    background-color: transparent;
+    border: none;
+}
